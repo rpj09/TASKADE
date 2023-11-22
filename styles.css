@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .task {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .task h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .priority {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .description {
+    color: #555;
+  }
+  
+  .note {
+    color: #777;
+    font-style: italic;
+    margin-top: 5px;
+  }
+  
+  .subtasks {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .subtasks li {
+    color: #444;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .subtasks li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: red;
+  }
+
+
+  .user-dropdown select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .task {
+    width: 45%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .task h2 {
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtasks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .subtasks li {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .subtasks h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .subtasks p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
